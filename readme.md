@@ -8,4 +8,4 @@ Requirements:
 Responsive HTML and CSS
 Modern card layout
 Three information cards
-Write clean, semantic HTML and organized CSS
+Write clean, semantic HTML and organized CSS..
