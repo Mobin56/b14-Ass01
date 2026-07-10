@@ -75,7 +75,6 @@ img{max-width: 100%;
 /* Navbar END */
 
 
-
 .hero{
     position: relative;
     width: 100%;
@@ -126,6 +125,9 @@ img{max-width: 100%;
 }
 
 /* Hero section End */
+
+
+
 
 /* Speakers Section */
 
@@ -192,3 +194,221 @@ img{max-width: 100%;
 
 /* Speakers Section  End */
 
+
+/* Pricing Section */
+
+.pricing{
+    padding:100px 0;
+    background:#fff;
+}
+
+.pricing-title{
+    text-align:center;
+    font-size:55px;
+    margin-bottom:10px;
+    color:#0f172a;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    color:#777;
+    margin-bottom:55px;
+}
+
+.pricing-parent{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.price-card{
+    width:32%;
+    border:1px solid #e5e7eb;
+    border-radius:10px;
+    padding:30px;
+    background:#fff;
+}
+
+.price-card h5{
+    color:#777;
+    font-size:13px;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.price-card h1{
+    font-size:55px;
+    color:#111827;
+}
+
+.price-card span{
+    color:#777;
+    font-size:15px;
+}
+
+.price-card hr{
+    margin:20px 0;
+    border:none;
+    border-top:1px solid #ddd;
+}
+
+.price-card ul{
+    padding-left:18px;
+}
+
+.price-card ul li{
+    margin-bottom:15px;
+    color:#444;
+    line-height:24px;
+}
+
+.active{
+    background:#0f1e2f;
+    color:white;
+}
+
+.active h1,
+.active h5,
+.active span,
+.active li{
+    color:white;
+}
+
+.active hr{
+    border-top:1px solid rgba(255,255,255,.2);
+}
+
+.primary-btn,
+.outline-btn{
+    width:100%;
+    margin-top:25px;
+    padding:15px;
+    border-radius:7px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.primary-btn{
+    background:#3563eb;
+    color:white;
+    border:none;
+}
+
+.outline-btn{
+    background:white;
+    color:#3563eb;
+    border:1px solid #3563eb;
+}
+
+.dark{
+    color:#111827;
+    border:1px solid #111827;
+}
+
+
+
+/* Live Coding Challenge */
+
+.challenge{
+    padding:100px 0;
+    background:#f8fbff;
+}
+
+.challenge h2{
+    text-align:center;
+    font-size:48px;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.challenge-subtitle{
+    width:70%;
+    margin:0 auto 50px;
+    text-align:center;
+    color:#64748b;
+    line-height:30px;
+    font-size:18px;
+}
+
+.challenge-parent{
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+}
+
+.challenge-card{
+    width:32%;
+    background:#fff;
+    padding:35px;
+    border-radius:12px;
+    border:1px solid #dbe4ff;
+}
+
+.challenge-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,.12);
+}
+
+.challenge-card h3{
+    color:#3454D1;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.challenge-card p{
+    color:#555;
+    line-height:28px;
+}
+
+.challenge-btn{
+    display:block;
+    margin:50px auto 0;
+    background:#3454D1;
+    color:#fff;
+    border:none;
+    padding:16px 40px;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.challenge-btn:hover{
+    background:#223db8;
+}
+
+
+/*  Footer */
+ 
+
+
+footer{
+    background: #0f1f2f;
+    padding: 35px 0;
+}
+
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-parent p{
+    color: #8d97a5;
+    font-size: 16px;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #8d97a5;
+    font-size: 16px;
+
+}
+
+.footer-menu a:hover{
+    color: #ffffff;
+}
